@@ -203,7 +203,7 @@ module.exports = class TeamRouter {
         // 如果用户不存在则发送邮件邀请
         var dif = _.difference(emailList, _.map(userList, 'email'))
         if (dif.length != 0) {
-            Mail.send(dif, `${user.username}邀请您加入爱发布`, `${user.username}邀请您加入${team.name}"团队.如果您还没有注册爱发布，请点击${config.baseUrl}注册`)
+            Mail.send(dif, `${user.username}邀请您加入iApp`, `${user.username}邀请您加入${team.name}"团队.如果您还没有注册iApp，请点击${config.baseUrl}注册`)
         }
 
         var teamList = []

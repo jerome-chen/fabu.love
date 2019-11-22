@@ -2,7 +2,7 @@
 typora-copy-images-to: ./screenshots
 ---
 
-### 爱发布
+### iApp
 
 demo地址: https://fabu.apppills.com/
 该平台是类似于fir.im/蒲公英类似的一个平台.可以自己部署.
