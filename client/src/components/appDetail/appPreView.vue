@@ -146,7 +146,7 @@ export default {
             return;
           }
           document.title = `${res.data.app.appName}App - ${
-            res.data.version
+            res.data.version.versionStr
           }下载（${res.data.app.appName === "iOS" ? "苹果" : "安卓"}版）`;
           this.appVersionInfo = res.data.version;
           this.appBaseData = res.data.app;
