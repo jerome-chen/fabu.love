@@ -145,9 +145,9 @@ export default {
             this.$message.error("未检测到版本信息");
             return;
           }
-          document.title = `${res.data.app.appName}App - ${
-            res.data.version.versionStr
-          }下载（${res.data.app.appName === "iOS" ? "苹果" : "安卓"}版）`;
+          document.title = `${res.data.app.appName}App下载（${
+            res.data.app.appName === "ios" ? "苹果" : "安卓"
+          }版${res.data.version.versionStr}）`;
           this.appVersionInfo = res.data.version;
           this.appBaseData = res.data.app;
           let releaseDate = new Date(this.appVersionInfo.uploadAt);
