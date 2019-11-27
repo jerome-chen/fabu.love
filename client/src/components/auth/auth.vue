@@ -9,18 +9,6 @@
         <span class="icon-ic_api_s"></span>
         <p>API文档</p>
       </div>
-      <div class="user-item" @click="clickSubItem('help')">
-        <span class="icon-ic_help_s"></span>
-        <p>Help</p>
-      </div>
-      <div class="user-item" @click="clickSubItem('github')">
-        <span class="icon-ic_github_s"></span>
-        <p>Github</p>
-      </div>
-      <div class="user-item" @click="clickSubItem('about')">
-        <span class="icon-ic_about_s"></span>
-        <p>About</p>
-      </div>
     </div>
     <div class="user-right">
       <div class="user-login-panel">
